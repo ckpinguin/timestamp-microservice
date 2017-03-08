@@ -1,8 +1,9 @@
+public/stylesheets/*.css
+*.swp
+
 # Logs
 logs
 *.log
-**.css 
-# generated of styl
 
 # Runtime data
 pids
