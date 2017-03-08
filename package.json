@@ -1,0 +1,23 @@
+{
+  "name": "timestamp-microservice",
+  "version": "0.0.1",
+  "description": "A NodeJS timestamp microservice just to get warmed up",
+  "main": "index.js",
+  "scripts": {
+    "test": "nope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckpinguin/timestamp-microservice.git"
+  },
+  "keywords": [
+    "nodejs",
+    "microservice"
+  ],
+  "author": "christof.kaelin@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckpinguin/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/ckpinguin/timestamp-microservice#readme"
+}
