@@ -1,7 +1,7 @@
 # Logs
 logs
 *.log
-*.css 
+**.css 
 # generated of styl
 
 # Runtime data

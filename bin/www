@@ -87,6 +87,6 @@ function onListening() {
         ? 'pipe ' + addr
         : 'port ' + addr.port;
     debug('Listening on ' + bind);
-    console.info('==> 🌎  Express is Listening on ' + addr + ':' + port
-        + '. Visit http://' + addr + ':' + port + '/ in your browser.');
+    console.info('==> 🌎  Express is Listening on ' + addr.address + ':' + port
+        + '. Visit http://' + addr.address + ':' + port + '/ in your browser.');
 }
