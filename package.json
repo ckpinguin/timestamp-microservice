@@ -1,23 +1,19 @@
 {
   "name": "timestamp-microservice",
   "version": "0.0.1",
-  "description": "A NodeJS timestamp microservice just to get warmed up",
-  "main": "index.js",
-  "scripts": {
-    "test": "nope"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ckpinguin/timestamp-microservice.git"
-  },
-  "keywords": [
-    "nodejs",
-    "microservice"
-  ],
   "author": "christof.kaelin@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ckpinguin/timestamp-microservice/issues"
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
   },
-  "homepage": "https://github.com/ckpinguin/timestamp-microservice#readme"
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "pug": "~2.0.0-beta10",
+    "serve-favicon": "~2.3.2",
+    "stylus": "0.54.5"
+  }
 }
