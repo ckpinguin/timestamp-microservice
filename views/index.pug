@@ -1,4 +1,5 @@
 extends layout
+
 block content
     .container
         h1.header
@@ -13,9 +14,9 @@ block content
 
                 li If it does not contain a date or Unix timestamp, it returns null for those properties.
         h3 Example usage:
-        code https://timestamp-ms.herokuapp.com/December%2015,%202015
+        a(href='http://192.168.225.150:5000/December%2015,%202015') http://192.168.225.150:5000/December%2015,%202015
         br
-        code https://timestamp-ms.herokuapp.com/1450137600
+        a(href='http://192.168.225.150:5000/1450137600') http://192.168.225.150:5000/1450137600
         h3 Example output:
         code
             | {

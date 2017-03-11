@@ -18,7 +18,6 @@ module.exports = {
         },
         "sourceType": "module"
     },
-    "plugins": ["react"],
     "rules": {
         "no-console": 0,
         "no-unused-vars": 1,
@@ -37,13 +36,5 @@ module.exports = {
         ],
         "react/jsx-boolean-value": 0,
         "jsx-quotes": 1,
-        "react/jsx-no-undef": 1,
-        "react/jsx-uses-react": 1,
-        "react/jsx-uses-vars": 1,
-        "react/no-did-mount-set-state": 0,
-        "react/no-did-update-set-state": 2,
-        "react/no-multi-comp": 1,
-        "react/no-unknown-property": 1,
-        "react/self-closing-comp": 1
     }
 };
